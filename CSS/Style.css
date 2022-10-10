@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  height: 100vh;
+  display: flex;
+  font-size: 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 674px;
+  height: 478px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: white;
+}
+
+.dsk-img {
+  height: 478px;
+  margin-right: 0;
+}
+
+.mob-img {
+  display: none;
+}
+
+.info {
+  padding: 30px;
+}
+
+h1 {
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 21px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 1;
+  margin-bottom: 21px;
+}
+
+.desc {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.5;
+  margin-bottom: 21px;
+  width: 240px;
+}
+
+.info .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  margin-bottom: 21px;
+}
+
+.new {
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Fraunces, serif";
+}
+
+.old {
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border: none;
+  width: 240px;
+  padding: 15px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  cursor: pointer;
+}
